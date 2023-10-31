@@ -1,0 +1,24 @@
+<html>
+    <head>
+    	<title>Formulário</title>
+    </head>
+    <body>
+        <form name="meuform" action="site.html" method="post">
+            Nome: <input name="nome" type="text" value="" placeholder="Digite seu nome" /> <br/>
+            Data de Nascimento: <input name="data" type="date" value="" /> <br/>
+            Fumante: <input name="fumante" type="checkbox" value="S" /> <br/>
+            Carteira de Motorista: <br/>
+            A <input name="cnh" type="radio" value="A" /> <br/>
+            B <input name="cnh" type="radio" value="B" /> <br/>
+            AB <input name="cnh" type="radio" value="AB" /> <br/>
+            <select name="estado" size="1">
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS" selected>Rio Grande do Sul</option>
+                <option value="SP">São Paulo</option>
+            </select>
+            <br/>
+            <input type="submit" value="Salvar" />
+        </form>
+    </body>
+</html>
